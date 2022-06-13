@@ -29,6 +29,7 @@ body {
   color: var(--color-white);
   -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
+  overflow: scroll;
 }
 
 a {
@@ -250,7 +251,7 @@ section {
 }
 
 .header-content .right-header .name {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 .header-content .right-header .name span {
@@ -259,7 +260,9 @@ section {
 
 .header-content .right-header p {
   margin: 1.5rem 0;
-  line-height: 2rem;
+  text-align: center justify;
+  line-height: 1.2rem;
+  color: var(--color-grey-3);
 }
 
 /*Independet componnents*/
